@@ -11,7 +11,7 @@ Command usage: `/batch [channel id or username]`
 Ex: `/batch -100xxx`
 """
 
-START_MESSAGE = '''**Hello BELUGA, I am flashlink.in , Bulk Link Converter. I Can Convert Links Directly From Your EasySky.in Account,
+START_MESSAGE = '''**Hello , I am flashlink.in ,  Link Converter. I Can Convert Links Directly From Your flashlink.in Account,
 
 See /help for more info.**
 '''
@@ -19,17 +19,10 @@ See /help for more info.**
 
 
 HELP_MESSAGE = '''
-**Hey! My name is {firstname}. I am a Link shortner bot.**
-Features 
-- [Hyperlink](https://t.me/{username})
-- Buttons convert support
-- Header and Footer Text support
-- Replace Username
-- Banner Image
-Helpful commands:
+**commands:
 - /start: Starts me! You've probably already used this.
 - /help: Sends this message; I'll tell you more about myself!
-If You Have Any Problem Then Contact - @TN92FF
+If You Have Any Problem Then Contact - @FlashLinkSupport
 Available commands:
 - /shortener_api
 - /header
