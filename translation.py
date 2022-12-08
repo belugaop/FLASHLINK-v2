@@ -11,24 +11,15 @@ Command usage: `/batch [channel id or username]`
 Ex: `/batch -100xxx`
 """
 
-START_MESSAGE = '''**Hello, {}
-I Am tnlinks.in Bot , Bulk Link Converter. I Can Convert Links Directly From Your tnlinks.in Account,
-    
-1. Go To 👉 https://tnlinks.in/member/tools/api 
-2. Than Copy API Key
-3. Than Type /shortener_api than give a single space and than paste your API Key (see example to understand more...)
-/set_api(space)API Key 
-(See Example.👇)
-Example:** `/shortener_api cbd63775f798fe0e58c67a56e6ce8b70c495cda4`
-**💁‍♀️ Hit 👉 /help To Get Help.
-➕ Hit 👉 /footer To Get Help About Adding your Custom Footer to bot.
-➕ Hit 👉 /header To Get Help About Adding your Custom Footer to bot.**
+START_MESSAGE = '''**Hello BELUGA, I am flashlink.in , Bulk Link Converter. I Can Convert Links Directly From Your EasySky.in Account,
+
+See /help for more info.**
 '''
 
 
 
 HELP_MESSAGE = '''
-**Hey! My name is {firstname}. I am a Tnlinks Pro Shortener Bot.**
+**Hey! My name is {firstname}. I am a Link shortner bot.**
 Features 
 - [Hyperlink](https://t.me/{username})
 - Buttons convert support
@@ -96,63 +87,13 @@ List of channels that have access to this Bot:
 
 {channels}"""
 
-HELP_REPLY_MARKUP = InlineKeyboardMarkup([
+HELP_REPLY_MARKUP = 
+ABOUT_REPLY_MARKUP =
+START_MESSAGE_REPLY_MARKUP  = 
 
-    [
-        InlineKeyboardButton('Custom Alias', callback_data=f'alias_conf'),
-        InlineKeyboardButton('Admins', callback_data=f'admins_list'),    
-    ],
+METHOD_REPLY_MARKUP =
 
-    [
-        
-        #InlineKeyboardButton('Channels', callback_data=f'channels_list'),
-        InlineKeyboardButton('Home', callback_data='start_command')
-        
-    ],
-
-
-])
-
-
-ABOUT_REPLY_MARKUP = InlineKeyboardMarkup([
-    [
-        InlineKeyboardButton('Home', callback_data=f'start_command'),
-        InlineKeyboardButton('Help', callback_data=f'help_command')
-    ],
-    [
-        InlineKeyboardButton('Close', callback_data='delete')
-    ]
-])
-
-START_MESSAGE_REPLY_MARKUP  = InlineKeyboardMarkup([
-    [
-        InlineKeyboardButton('Help', callback_data=f'help_command'),
-        InlineKeyboardButton('About', callback_data='about_command')
-    ],
-    [
-        InlineKeyboardButton('Close', callback_data='delete')
-    ]
-])
-
-METHOD_REPLY_MARKUP = InlineKeyboardMarkup([
-    [
-        InlineKeyboardButton('Mdisk + Shortener', callback_data=f'change_method#TnlinksWithMdisk'),
-        InlineKeyboardButton('Shortener', callback_data='change_method#Tnlinks')
-    ],
-        [
-        InlineKeyboardButton('Back', callback_data=f'help_command'),
-        InlineKeyboardButton('Close', callback_data='delete')
-    ],
-
-])
-
-BACK_REPLY_MARKUP = InlineKeyboardMarkup([
-    [
-        InlineKeyboardButton('Back', callback_data=f'help_command')
-    ],
-
-])
-
+BACK_REPLY_MARKUP = 
 USER_ABOUT_MESSAGE = """
 
 - Header Text: 
