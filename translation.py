@@ -20,18 +20,20 @@ See /help for more info.**
 
 HELP_MESSAGE = '''
 **commands:
-- /start: Starts me! You've probably already used this.
-- /help: Sends this message; I'll tell you more about myself!
-If You Have Any Problem Then Contact - @FlashLinkSupport
-Available commands:
-- /shortener_api
-- /header
-- /footer
-- /username
-- /banner_image
-- /me
-Use the commands to know more about the same
-Below are some features I provide'''
+/start - To Start Bot
+/help - To Get Help
+/me - To Display Your Current Settings
+
+Api:
+/shortner_api - To Add Your Flashlink Api
+
+Post Header:
+/header - To Set Default Header
+
+Post Footer:
+/footer - To Set Default Footer
+
+If You Have Any Problem Then Contact - @FlashLinkSupport'''
 
 
 
